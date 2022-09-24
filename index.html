@@ -22,9 +22,25 @@
                 <a href="#"><i class="fa fa-github"></i></a>
                 <a href="#"><i class="fa fa-vk"></i></a>
             </div>
-            <a href="https://vk.com/id_internet_user" class="contact-btn">Проекты</a>
+            <a href="https://vk.com/id_internet_user" class="contact-btn">Почта</a>
             <a href="https://vk.com/id_internet_user" class="subscribe-btn">Подписаться</a>
         </div>
+        <div class="container">
+            <button class="click">Категории</button>
+            <div class="list">
+                <button class="links">Python</button>
+                <button class="links">CSS,HTML</button>
+                <button class="links">JavaScript</button>
+                <button class="links">C++</button>
+            </div>
+        </div>
+        <script>
+            let click = document.querySelector('.click');
+            let list = document.querySelector('.list');
+            click.addEventListener("click",()=>{
+                list.classList.toggle('newlist')
+            });
+        </script>
         <div class="card-foter">
             <div class="numbers">
                 <div class="item">
