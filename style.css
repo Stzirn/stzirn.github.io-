@@ -17,18 +17,18 @@ body{
 .profile-card{
     width: 400px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 50px;
     overflow: hidden;
 }
 
 .card-header{
-    background: #2c3a47;
+    background: #1a2739;;
     padding: 60px 40px;
 }
 
 .pic{
     display: inline-block;
-    padding: 8px;
+    padding: 2px;
     background: linear-gradient(130deg, #74b9ff, #e66767);
     margin: auto;
     border-radius: 50%;
@@ -63,11 +63,13 @@ body{
     font-size: 29px;
     font-weight: 600;
     margin: 10px 0;
+    font-family: sans-serif;
 }
 
 .desc{
     font-size: 18px;
-    color: #e66767;
+    color: #5d82fc;
+    font-family: sans-serif;
 }
 
 .sm{
@@ -84,39 +86,63 @@ body{
 }
 
 .sm a:hover{
-    color: #e66767
+    color: #5a5a5a
 }
 
 .contact-btn{
-    display: inline-block;
-    padding: 12px 50px;
-    color: #e66767;
-    border: 2px solid #e66767;
-    border-radius: 6px;
-    margin-top: 16px;
-    transition: .3s linear;
-    text-decoration : none
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #377becab;
+	box-shadow: 0 2px #21487f;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
 }
 
 .subscribe-btn{
-    display: inline-block;
-    padding: 12px 50px;
-    color: #67e685;
-    border: 2px solid #44f5a8;
-    border-radius: 6px;
-    margin-top: 16px;
-    transition: .3s linear;
-    text-decoration : none
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #377becab;
+	box-shadow: 0 2px #21487f;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
 }
 
 .contact-btn:hover{
-    background: #e66767;
-    color: #f2f2f2;
+    background: #6a6a6a9f;
+    color: #ffffff;
 }
 
 .subscribe-btn:hover{
-    background: #1bff7a;
-    color: #245b00;
+    background: #6a6a6a9f;
+    color: #ffffff;
 }
 
 .card-foter{
