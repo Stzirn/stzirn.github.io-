@@ -15,7 +15,7 @@ body{
 }
 
 .profile-card{
-    width: 600px;
+    width: 400px;
     text-align: center;
     border-radius: 50px;
     overflow: hidden;
@@ -63,6 +63,15 @@ body{
     font-size: 29px;
     font-weight: 600;
     margin: 10px 0;
+    font-family: sans-serif;
+}
+
+.project{
+    color: #777777;
+    font-size: 20px;
+    font-weight: 600;
+    margin: -50px 118px;
+    position: absolute;
     font-family: sans-serif;
 }
 
@@ -137,51 +146,6 @@ body{
     font-family: sans-serif;
 }
 
-.container{
-    width: 200px;
-    position: relative;
-}
-
-.click{
-    background-color: #377becab;
-}
-
-.click :hover{
-    background-color: #ff0c0c;
-}
-
-.click,.links{
-    padding: 12px;
-    font-size: 1.1em;
-    border: none;
-    outline: none;
-    color: #ffffff;
-    transition: 0.3s;
-    font-family: sans-serif;
-    width: 600px;
-    display: flex;
-}
-
-.list{
-   position: absolute; 
-   transform: scaleY(0);
-   transform-origin: top;
-   transition: 0.3s;
-}
-
-.newlist{
-    transform: scaleY(1);
-}
-
-.links{
-    background-color:#283c63;
-}
-
-.links:hover{
-    background-color: #01579B;
-    transform: scale(1.1);
-}
-
 .contact-btn:hover{
     background: #6a6a6a9f;
     color: #ffffff;
@@ -195,12 +159,6 @@ body{
 .card-foter{
     background: #f2f2f2;
     padding: 70px 35px;
-}
-
-.numbers{
-    display: flex;
-    align-items: center;
-    font-family: sans-serif;
 }
 
 .items{
